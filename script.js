@@ -32,4 +32,12 @@ document.body.innerHTML += "<p>Apartment: " + apartment.disposition +
                            "</p>"
  document.body.innerHTML += "<p>rent: " + apartment.price.rent + " </p>";                         
 document.body.innerHTML += "<p>Apartment: " + apartment.city + ", district: " + apartment.district + "</p>";
-document.body.innerHTML += "<p>Apartment: " + apartment.status + " </p>";
+document.body.innerHTML += "<p>Apartment: " + apartment.status + " </p>"
+
+const nazev = "Kniha"
+const autor = "pan autor"
+const pocetStran = 220
+const naSklade = true
+const zanr = fantasy
+
+document.body.innerHTML += "<p>Kniha: " + kniha.nazev + ", autor: " + kniha.autor + ", pocetStran: " + kniha.pocetStran + ", naSklade: " + kniha.zanr + "</p>";
